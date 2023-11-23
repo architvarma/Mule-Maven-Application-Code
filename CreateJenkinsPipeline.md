@@ -8,8 +8,3 @@ Create a multibranch pipeline:
 2. Navigate to the folder where the item is to be created,
 3. Select “New Item” from the menu,
 4. Choose “Multibranch Pipeline” and give it the Mule project name. 
-
-This shows how it looks:
- 
-<img src="images/multibranch-configuration.png" title="Multibranch config" alt="Multibranch config"/>
-
