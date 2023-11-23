@@ -1,5 +1,6 @@
-# initial-project
+# Initial-project
 This project is an Experience API...
+For CICD Automation for Mule Application Please refer to [MuleSoft-DevOps](https://github.com/architvarma/MuleSoft-DevOps.git) Repository
 
 ## Workstation properties for Studio
 
