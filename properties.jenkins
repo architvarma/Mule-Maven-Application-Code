@@ -1,0 +1,43 @@
+#################################################################################################### 
+#Common Deployment Properties - Primary 
+#################################################################################################### 
+#application.name
+application.name.dev=Mule-Maven-HowTo-pipeline-dev
+application.name.qa=Mule-Maven-HowTo-pipeline-qa
+application.name.preprod=Mule-Maven-HowTo-pipeline-pre-prod
+application.name.prd=Mule-Maven-HowTo-pipeline
+#################################################################################################### 
+#DEV Deployment Properties 
+#################################################################################################### 
+workers.type.dev=MICRO
+workers.dev=1 
+mule.version.dev=4.3.0 
+region.dev=us-east-1
+#################################################################################################### 
+#QA Deployment Properties 
+#################################################################################################### 
+workers.type.qa=Micro 
+workers.qa=1 
+mule.version.qa=4.4.0 
+region.qa=us-east-1  
+#################################################################################################### 
+#Pre-Prod Deployment Properties 
+#################################################################################################### 
+workers.type.preprod=Micro 
+workers.preprod=1 
+mule.version.preprod=4.4.0 
+region.preprod=us-west-2 
+#################################################################################################### 
+#Production Deployment Properties 
+#################################################################################################### 
+workers.type.prd=Micro 
+workers.prd=2 
+mule.version.prd=4.4.0 
+region.prd=us-east-1 
+#################################################################################################### 
+#Deployment Notification 
+#################################################################################################### 
+#ccTo= Email id of the user's to be cc'ed in the mail 
+ccTo=  
+#devloperId=Email id of the developer for failure notification 
+developerId= 
