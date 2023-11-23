@@ -6,7 +6,8 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>50228d0d-2c1f-4548-9c8a-90c0ebb480b3</groupId>
-	<artifactId>Mule-Maven-HowTo-pipeline</artifactId>
+<!-- 	<artifactId>Mule-Maven-HowTo-pipeline</artifactId> -->
+	<artifactId>${artifactID}</artifactId>
 	<version>1.0.2-SNAPSHOT-${buildNumber}</version>
 	<packaging>mule-application</packaging>
 
