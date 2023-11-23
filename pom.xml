@@ -118,13 +118,15 @@
 								<muleVersion>${app.runtime}</muleVersion>
 								<username>${u}</username>
 								<password>${p}</password>
-								<applicationName>${cloudhub.name}</applicationName>
+								<connectedAppClientId>${clientid}</connectedAppClientId>
+								<connectedAppClientSecret>${clientsecret}</connectedAppClientSecret>
+								<applicationName>${app.name}</applicationName>
 								<artifact>${mule.artifact}</artifact>
 								<businessGroup>${deploy.businessGroup}</businessGroup>
-								<environment>${deploy.environment}</environment>
-								<workers>${ch.workers}</workers>
-								<workerType>${ch.workerType}</workerType>
-								<deploymentTimeout>${ch.deploymentTimeout}</deploymentTimeout>
+								<environment>${environment}</environment>
+								<workers>${workers}</workers>
+								<workerType>${workerType}</workerType>
+								<deploymentTimeout>${deploymentTimeout}</deploymentTimeout>
 								<objectStoreV2>true</objectStoreV2>
 								<persistentQueues>false</persistentQueues>
 								<region>${ch.region}</region>
@@ -132,8 +134,8 @@
 								<applyLatestRuntimePatch>true</applyLatestRuntimePatch>
 								<properties>
 									<mule.env>${deploy.environment}</mule.env>
-									<anypoint.platform.client_id>${ap_id}</anypoint.platform.client_id>
-									<anypoint.platform.client_secret>${ap_secret}</anypoint.platform.client_secret>
+									<anypoint.platform.client_id>${connect_client_id}</anypoint.platform.client_id>
+									<anypoint.platform.client_secret>${connect_clientsecret}</anypoint.platform.client_secret>
 									<mule.server>${cloudhub.name}${cloudhub.domain}</mule.server>
 									<host.name>${cloudhub.name}${cloudhub.domain}</host.name>
 									<anypoint.platform.visualizer.layer>Experience</anypoint.platform.visualizer.layer>
