@@ -90,3 +90,7 @@ Or the option **-Ppublic-lb** can be used to force deployment to CloudHub using 
 
 By default, -Ppublic-lb is used.
 
+### Properties.jenkins Configuration
+The properties.jenkins file provides environment-specific deployment properties, including worker types, MuleSoft versions, regions, and notification settings. Adjust the values to align with your project's requirements and specific environment configurations according to the pom.xml file
+
+Make sure to correctly specify the email addresses for notification (ccTo and developerId) to receive relevant alerts during the deployment process.
